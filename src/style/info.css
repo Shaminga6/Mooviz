@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image{
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 359px;
+    height: auto;
+}
+
+.story{
+    max-width: 500px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.overview{
+    line-height: 32px;
+}
+
+.toGreen{
+    margin-left: 60px;
+    color: green;
+}
+
+.toYellow{
+    margin-left: 60px;
+    color: yellow;
+}
+
+.date{
+    color: #a5a5a5;
+}
+
+.back{
+    border: none;
+    display: block;
+    text-align: center;
+    width: 20%;
+    padding: 5px 0;
+    margin-top: 20px;
+    background-color: rgb(69, 69, 139);
+    color: #fefefe;
+}

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  max-width: 200px;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+  flex-basis: 100%;
+  margin: 10px 5px;
+  background-color: rgb(25, 30, 53);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movieImage {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.info{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.green{color: green}
+.red{color: yellow}
+
+#date{
+  color: rgb(153, 151, 151)
+}
+
+
+
+.banner{
+  background-image: url("../assets/banImage.jpg");
+  height: 95vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  margin-top: -29px;
+}
+
+.package{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.425);
+  padding: 30px;
+}
+
+.bannerTitle_main{
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  color: #f3f3f3;
+}
+.bannerTitle_sub{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 9.4px;
+}
+
+
+
+
+
+.lol{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .banner{
+    height: 100vh;
+  }
+
+  .bannerTitle_main{
+    letter-spacing: 16px;
+  }
+
+  .bannerTitle_sub {
+    letter-spacing: 7.4px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner{
+    height: 31vh;
+  }
+
+  .bannerTitle_main {
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+.bannerTitle_sub {
+  letter-spacing: 2px;
+}
+
+  .card{
+    max-width: 159px;
+  }
+}

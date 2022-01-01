@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 50px;
+  background-color: rgba(61, 67, 104, 0.856);
+  color: #bdbec4;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+}

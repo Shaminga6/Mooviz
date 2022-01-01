@@ -1,0 +1,50 @@
+nav .navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  color: #f3f3f3;
+  
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin: 10px 20px;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.logo {
+  height: 35px;
+}
+
+#linkVisit{
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  ul{
+    display: inline;
+  }
+
+  ul li {
+    font-size: smaller;
+  }
+
+  .logo {
+    height: 25px;
+  }
+}
